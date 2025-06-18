@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Semangat Beranimasi!</title>
+  <style>
+    body {
+      background-color: #fffaf5;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+
+    h1 {
+      color: #ff4081;
+      font-size: 3em;
+      margin-bottom: 30px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .flower {
+      width: 300px;
+      height: auto;
+      animation: swing 4s infinite ease-in-out;
+      display: inline-block;
+    }
+
+    @keyframes swing {
+      0% { transform: rotate(0deg); }
+      25% { transform: rotate(3deg); }
+      50% { transform: rotate(0deg); }
+      75% { transform: rotate(-3deg); }
+      100% { transform: rotate(0deg); }
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(-20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <h1>Yauuu kerjaaa wiwo! 💪🌸</h1>
+  <img class="flower" src="https://cdn.pixabay.com/photo/2017/08/30/07/52/flowers-2695070_1280.jpg" alt="Bunga Semangat" />
+</body>
+</html>
